@@ -22,5 +22,5 @@ export default function HomePage() {
         fetchTrends();
     }, []);
 
-    return (<div>{ loading && <Loading />}<MoviesList movies={movies} location={location} /></div>)
+    return (<div><h1>Trendings Today</h1>{loading && <Loading />}<MoviesList movies={movies} location={location} /></div>)
 }
