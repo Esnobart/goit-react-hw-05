@@ -1,0 +1,18 @@
+.detailsContainer {
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 3px solid #ccc;
+}
+
+.imageContainer {
+    margin-right: 25px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.additionalContainer {
+    border-bottom: 3px solid #ccc;
+}
